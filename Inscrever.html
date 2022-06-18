@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrever-se</title>
+    <link rel="stylesheet" href=".\Css\Inscrever.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Inscrever-se</div>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Nome Inteiro</span>
+                    <input type="text" placeholder="Escreva seu nome completo" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Nome da Empresa</span>
+                    <input type="text" placeholder="Escreva nome completo da empresa" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="text" placeholder="Escreva email oficial" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Contato</span>
+                    <input type="text" placeholder="Digite telefone de contato oficial" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Endereço</span>
+                    <input type="text" placeholder="Digite seu CEP" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Nome do Usuario</span>
+                    <input type="text" placeholder="Seu nome de usuário" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Senha</span>
+                    <input type="password" placeholder="Sua senha" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Confirmar Senha</span>
+                    <input type="password" placeholder="Confirmar senha" required>
+                </div>
+            </div>
+            <div class="tipo-details">
+                <input type="radio" name="tipo" id="dot-1">
+                <input type="radio" name="tipo" id="dot-2">
+                <input type="radio" name="tipo" id="dot-3">
+                <span class="tipo-titulo">Tipo de Cadastro</span>
+                <div class="category">
+                    <label for="dot-1">
+                        <span class="dot one"></span>
+                        <span class="tipo">Oficina</span>
+                    </label>
+                    <label for="dot-2">
+                        <span class="dot two"></span>
+                        <span class="tipo">Refinaria</span>
+                    </label>
+                    <label for="dot-3">
+                        <span class="dot three"></span>
+                        <span class="tipo">Outro</span>
+                    </label>
+                </div>
+            </div>
+            <div class="button">
+                <a href=".\usuario.html">
+                    <input type="submit" value="Registrar">
+                </a>
+            </div>
+            <p>Ao clicar em registrar, você estará concordando com nossos <a href="\">Termos e Condições</a>
+                e <a href="/">Políticas</a></p>
+            <p>Já possui uma conta? <a href=".\usuario.html">Entre aqui</a></p>
+        </form>
+    </div>
+    
+</body>
+</html>
